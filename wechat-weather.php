@@ -3,7 +3,7 @@
  * wechat php test
  */
 // define your token
-define("TOKEN", "rainwsy");
+define("TOKEN", "rainwsy/token");
 $wechatObj = new wechatCallbackapiTest();
 if (! empty($_GET['echostr'])) {
     $wechatObj->valid();
